@@ -125,8 +125,8 @@ def main():
 	
 	lastVersion = parser.HTMLDATA[-1]
 	
-	urlpost15 = url + lastVersion + '/packages/com.vmware.fusion.tools.darwin.zip.tar'
-	urlpre15 = url + lastVersion + '/packages/com.vmware.fusion.tools.darwinPre15.zip.tar'
+	urlpost15 = url + lastVersion + '/core/com.vmware.fusion.tools.darwin.zip.tar'
+	urlpre15 = url + lastVersion + '/core/com.vmware.fusion.tools.darwinPre15.zip.tar'
 	parser.clean()
 
 	# Download the darwin.iso tgz file
